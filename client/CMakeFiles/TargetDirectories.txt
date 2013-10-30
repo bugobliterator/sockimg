@@ -1,1 +1,1 @@
-/home/karan/Documents/socket_linux/client/CMakeFiles/client1.dir
+/home/karan/Documents/sockimg/client/CMakeFiles/client1.dir

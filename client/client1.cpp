@@ -85,13 +85,14 @@ void Die(char *mess) { perror(mess); exit(1); }
 
  /*---------------------------- Receive the word back from the server-------------------------------------------------------------------- */
 
-
+           // uchar *p;
+            
             fprintf(stdout, "Received: ");
             //while (received < echolen)
 		 {
               int a,size[2];
 		long unsigned int bytes=0,receive=0;
-	      
+	      //p=new uchar[size[0]*3*size[1]];
               if ((bytes = recv(sock, size, sizeof(int)*2, 0)) < 1) 
 	      {
                 Die("Failed to receive bytes from server");
@@ -101,19 +102,30 @@ void Die(char *mess) { perror(mess); exit(1); }
 			cout<<"Image size received successfully!!!!!"<<endl<<"Height::"<<size[0]<<endl<<"Width::"<<size[1]<<endl;
 		}
 		IplImage *img=cvCreateImage(cvSize(size[1],size[0]),IPL_DEPTH_8U,3);
-		while(receive<=((size[0]*3*size[1])-1))
+                IplImage *img1=cvCreateImage(cvSize(size[1],size[0]),IPL_DEPTH_8U,3);
+                bytes=0;
+		while(receive<=((size[0]*3*size[1]-1)))
 		{
-			if((bytes=recv(sock,img->imageData,sizeof(char)*size[0]*3*size[1],0))<1)
+			if((bytes=recv(sock,img->imageData,sizeof(uchar)*size[0]*3*size[1],0))<1)
 		{
 			cout<<"Receiving data failed"<<endl<<"bytes::"<<bytes<<endl;
 		}
 		else
 		{
 			cout<<"Data received successfully!!!!!!!!"<<endl<<"bytes::"<<bytes<<endl;
+			
 		}
+		
+		for( int y=0; y<bytes; y++ ) {
+			*(img1->imageData+receive+y)=*(img->imageData+y);
+		
+	        }
 		receive+=bytes;
 		}
-        	cvSaveImage("test.jpg",img);
+                
+		
+
+        	cvSaveImage("test.jpg",img1);
 		//for(int i=0;i<size[0]*3*size[1];i++)
 			//cout<<img->imageData[i]<<" ";
 		getchar();

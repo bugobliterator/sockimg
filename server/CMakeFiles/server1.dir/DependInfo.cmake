@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/karan/Documents/socket_linux/server/server1.cpp" "/home/karan/Documents/socket_linux/server/CMakeFiles/server1.dir/server1.cpp.o"
+  "/home/karan/Documents/sockimg/server/server1.cpp" "/home/karan/Documents/sockimg/server/CMakeFiles/server1.dir/server1.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karan/Documents/socket_linux/client
+CMAKE_SOURCE_DIR = /home/karan/Documents/sockimg/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karan/Documents/socket_linux/client
+CMAKE_BINARY_DIR = /home/karan/Documents/sockimg/client
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client1.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/client1.dir/flags.make
 
 CMakeFiles/client1.dir/client1.cpp.o: CMakeFiles/client1.dir/flags.make
 CMakeFiles/client1.dir/client1.cpp.o: client1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/karan/Documents/socket_linux/client/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/karan/Documents/sockimg/client/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/client1.dir/client1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/client1.dir/client1.cpp.o -c /home/karan/Documents/socket_linux/client/client1.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/client1.dir/client1.cpp.o -c /home/karan/Documents/sockimg/client/client1.cpp
 
 CMakeFiles/client1.dir/client1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client1.dir/client1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/karan/Documents/socket_linux/client/client1.cpp > CMakeFiles/client1.dir/client1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/karan/Documents/sockimg/client/client1.cpp > CMakeFiles/client1.dir/client1.cpp.i
 
 CMakeFiles/client1.dir/client1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client1.dir/client1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/karan/Documents/socket_linux/client/client1.cpp -o CMakeFiles/client1.dir/client1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/karan/Documents/sockimg/client/client1.cpp -o CMakeFiles/client1.dir/client1.cpp.s
 
 CMakeFiles/client1.dir/client1.cpp.o.requires:
 .PHONY : CMakeFiles/client1.dir/client1.cpp.o.requires
@@ -115,6 +115,6 @@ CMakeFiles/client1.dir/clean:
 .PHONY : CMakeFiles/client1.dir/clean
 
 CMakeFiles/client1.dir/depend:
-	cd /home/karan/Documents/socket_linux/client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karan/Documents/socket_linux/client /home/karan/Documents/socket_linux/client /home/karan/Documents/socket_linux/client /home/karan/Documents/socket_linux/client /home/karan/Documents/socket_linux/client/CMakeFiles/client1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karan/Documents/sockimg/client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karan/Documents/sockimg/client /home/karan/Documents/sockimg/client /home/karan/Documents/sockimg/client /home/karan/Documents/sockimg/client /home/karan/Documents/sockimg/client/CMakeFiles/client1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client1.dir/depend
 

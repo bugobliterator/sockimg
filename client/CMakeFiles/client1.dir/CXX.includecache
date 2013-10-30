@@ -6,10 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/karan/Documents/socket_linux/client/client1.cpp
+/home/karan/Documents/sockimg/client/client1.cpp
 stdio.h
 -
 sys/socket.h
+-
+sys/resource.h
 -
 arpa/inet.h
 -

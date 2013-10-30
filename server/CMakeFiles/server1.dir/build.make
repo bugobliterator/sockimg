@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karan/Documents/socket_linux/server
+CMAKE_SOURCE_DIR = /home/karan/Documents/sockimg/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karan/Documents/socket_linux/server
+CMAKE_BINARY_DIR = /home/karan/Documents/sockimg/server
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server1.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/server1.dir/flags.make
 
 CMakeFiles/server1.dir/server1.cpp.o: CMakeFiles/server1.dir/flags.make
 CMakeFiles/server1.dir/server1.cpp.o: server1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/karan/Documents/socket_linux/server/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/karan/Documents/sockimg/server/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/server1.dir/server1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/server1.cpp.o -c /home/karan/Documents/socket_linux/server/server1.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/server1.dir/server1.cpp.o -c /home/karan/Documents/sockimg/server/server1.cpp
 
 CMakeFiles/server1.dir/server1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server1.dir/server1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/karan/Documents/socket_linux/server/server1.cpp > CMakeFiles/server1.dir/server1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/karan/Documents/sockimg/server/server1.cpp > CMakeFiles/server1.dir/server1.cpp.i
 
 CMakeFiles/server1.dir/server1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server1.dir/server1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/karan/Documents/socket_linux/server/server1.cpp -o CMakeFiles/server1.dir/server1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/karan/Documents/sockimg/server/server1.cpp -o CMakeFiles/server1.dir/server1.cpp.s
 
 CMakeFiles/server1.dir/server1.cpp.o.requires:
 .PHONY : CMakeFiles/server1.dir/server1.cpp.o.requires
@@ -115,6 +115,6 @@ CMakeFiles/server1.dir/clean:
 .PHONY : CMakeFiles/server1.dir/clean
 
 CMakeFiles/server1.dir/depend:
-	cd /home/karan/Documents/socket_linux/server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karan/Documents/socket_linux/server /home/karan/Documents/socket_linux/server /home/karan/Documents/socket_linux/server /home/karan/Documents/socket_linux/server /home/karan/Documents/socket_linux/server/CMakeFiles/server1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karan/Documents/sockimg/server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karan/Documents/sockimg/server /home/karan/Documents/sockimg/server /home/karan/Documents/sockimg/server /home/karan/Documents/sockimg/server /home/karan/Documents/sockimg/server/CMakeFiles/server1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/server1.dir/depend
 

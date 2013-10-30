@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/karan/Documents/socket_linux/server/server1.cpp
+/home/karan/Documents/sockimg/server/server1.cpp
 stdio.h
 -
 sys/socket.h
@@ -24,6 +24,8 @@ netinet/in.h
 highgui.h
 -
 opencv2/opencv.hpp
+-
+sys/resource.h
 -
 cv.h
 -
